@@ -45,7 +45,7 @@ function displayModal(index) {
   let { name, dob, phone, email, 
   location: { city, state, postcode, street: { number: streetNumber, name: streetName } }, picture } = employees[index];
 
-  let date = new Date(dob.date);
+  let date = new Date(dob.date) + 1;
 
   let modalHTML = `
   <img class="avatar" src="${picture.large}"/>
