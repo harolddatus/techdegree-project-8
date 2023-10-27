@@ -136,4 +136,5 @@ hr {
   background-color: red;
   cursor: pointer;
   color: white;
+  border-radius: 7px;
 }
